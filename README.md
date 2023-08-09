@@ -11,7 +11,7 @@ Execution Steps:
     - Use the requests library to send an HTTP request to the website and get the HTML content of the page.
     - Parse the HTML content using Beautiful Soup to extract the relevant data (article titles, publication dates, and categories) using appropriate HTML tags and classes.
 3.	**Data Transformation: (In progress)**
-    -   Tools: Python (Pandas for data manipulation).
+    - Tools: Python (Pandas for data manipulation).
     - Create a DataFrame to store the scraped data.
     - Clean the data by handling any missing or incorrect values, removing duplicates, and converting data types if necessary.
     - Extract the publication date and format it to a standardized date format.
