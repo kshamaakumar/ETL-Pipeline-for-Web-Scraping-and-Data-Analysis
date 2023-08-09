@@ -5,12 +5,12 @@ Create an ETL pipeline to scrape data from a news website and perform data analy
 Execution Steps: 
 
 1.	Choose the Target Website: 
-o	Website: BBC News (https://news.google.com/)
+o	Website: Google News (https://news.google.com/)
 o	Data to Collect: Article titles, publication dates, and article categories.
 2.	Web Scraping: 
-o	Tools: Python, Beautiful Soup/Scrapy , requests library.
+o	Tools: Python, requests library.
 o	Use the requests library to send an HTTP request to the website and get the HTML content of the page.
-o	Parse the HTML content using Beautiful Soup to extract the relevant data (article titles, publication dates, and categories) using appropriate HTML tags and classes.
+o	Parse the HTML content to extract the relevant data (article titles, publication dates, and links) using appropriate HTML tags and classes.
 --> 3.	Data Transformation: (In progress)
     o	Tools: Python (Pandas for data manipulation).
     o	Create a DataFrame to store the scraped data.
