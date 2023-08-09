@@ -10,7 +10,7 @@ Execution Steps:
     - Tools: Python, Beautiful Soup/Scrapy , requests library.
     - Use the requests library to send an HTTP request to the website and get the HTML content of the page.
     - Parse the HTML content using Beautiful Soup to extract the relevant data (article titles, publication dates, and categories) using appropriate HTML tags and classes.
-3.	**Data Transformation: (In progress)**
+3.	Data Transformation:
     - Tools: Python (Pandas for data manipulation).
     - Create a DataFrame to store the scraped data.
     - Clean the data by handling any missing or incorrect values, removing duplicates, and converting data types if necessary.
@@ -20,7 +20,7 @@ Execution Steps:
     - Set up a SQLite database to store the cleaned data.
     -   Create a table in the database to hold the article data with appropriate columns for article titles, publication dates, and categories.
     -  Insert the cleaned data from the DataFrame into the database table.
-5.	Data Analysis: 
+5.	**Data Analysis: (In progress)** 
     - Tools: Python (Pandas, Matplotlib, Seaborn).
     - Load the data from the SQLite database into a DataFrame.
     - Perform exploratory data analysis (EDA) on the collected data using Pandas for statistical insights, data summaries, and visualizations.
