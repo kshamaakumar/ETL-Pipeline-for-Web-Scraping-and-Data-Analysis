@@ -20,12 +20,12 @@ Execution Steps:
     - Set up a SQLite database to store the cleaned data.
     -   Create a table in the database to hold the article data with appropriate columns for article titles, publication dates, and categories.
     -  Insert the cleaned data from the DataFrame into the database table.
-5.	**Data Analysis and Visualizations: (In progress)** 
+5.	Data Analysis and Visualizations:
     - Tools: Python (Pandas, Matplotlib, Seaborn).
     - Load the data from the SQLite database into a DataFrame.
     - Perform exploratory data analysis (EDA) on the collected data using Pandas for statistical insights, data summaries, and visualizations.
     - Generate visualizations (e.g., bar charts, line plots) using Matplotlib and Seaborn to understand trends and patterns in the articles.
-6.	Automate the Pipeline: 
+6.	**Automate the Pipeline: (In progress)** 
     - Tools: Python, Apache Airflow (for automation).
     - Develop a Python script that encapsulates all the above steps from web scraping to data analysis.
     - Set up an Apache Airflow workflow to schedule and automate the execution of the script at regular intervals (e.g., daily or weekly).
