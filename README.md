@@ -1,6 +1,9 @@
 ### ETL-Pipeline-for-Web-Scraping-and-Data-Analysis
 
 Create an ETL pipeline to scrape data from a news website and perform data analysis on the collected articles. The target website will be "Google News" (https://news.google.com/). Collect the article titles, publication dates, and article links
+
+![Data pipeline flow chart](https://github.com/kshamaakumar/ETL-Pipeline-for-Web-Scraping-and-Data-Analysis/blob/main/img/data_flow.png)
+
 Execution Steps: 
 
 1.	Choose the Target Website: 
